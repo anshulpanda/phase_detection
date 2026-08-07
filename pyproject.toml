@@ -29,7 +29,7 @@ dev = ["pytest>=7.4"]
 phase-detect = "phase_detection.cli:main"
 
 [tool.setuptools.packages.find]
-where = ["src"]
+include = ["phase_detection*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
