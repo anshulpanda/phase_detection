@@ -1,0 +1,21 @@
+# Local data-root pointer (.env.example is the tracked template)
+.env
+
+# Data, models, and generated artifacts never belong in this repo
+*.csv
+*.mp4
+*.mov
+*.pt
+*.mlpackage/
+*.png
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+.ipynb_checkpoints/
