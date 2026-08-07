@@ -1,9 +1,8 @@
-# phase-detection
+# Tennis Forehand Phase Detection
 
-Frame-level tennis forehand **swing-phase detection**: a pose-based Temporal
-Convolutional Network that labels every frame of a clip with one of seven
-swing phases, plus the active-learning pipeline used to grow its training set
-from 82 hand-labelled videos to 884.
+A pose-based Temporal Convolutional Network that labels every frame of a
+forehand clip with one of seven swing phases, plus the active-learning
+pipeline used to grow its training set from 82 hand-labelled videos to 884.
 
 ```
 no_phase → Start of Unit Turn → End of Backswing → Forward Swing Initiation
